@@ -133,8 +133,6 @@ a{
     align-items: center;
     height: 80vh;
     padding-bottom: 50px;
-    /* background: url(./projectimages/FB_IMG_17286637286746540.jpg) ;  */
-    /* background-color: white; */
 }
 
 .photo{
@@ -187,7 +185,6 @@ h1{
 }
 .services-container{
     padding-top: 50px;
-    /* background-color: red; */
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -204,7 +201,7 @@ a:active{
     align-items: center;
     gap: 120px;
     height: 80vh;
-    /* background-color: aliceblue; */
+    scroll-margin: 80px;
 }
 .pic2{
     position: relative;
@@ -273,7 +270,6 @@ li{
 }
 .project-container{
     scroll-margin: 80px;
-    /* background-color: #ecf1f0; */
     padding: 30px 50px 50px 30px;
     height: auto;
 }
