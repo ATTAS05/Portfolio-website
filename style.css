@@ -507,3 +507,8 @@ html{
       }
 
 }
+@media(max-width: 480px) and (min-width: 320px){
+    .contact{
+        background: none;
+    }
+}
