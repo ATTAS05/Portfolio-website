@@ -310,12 +310,13 @@ input{
     padding-top: 30px;
 }
 
-form{
+.form{
     position: absolute;
     background-color: black;
     padding: 50px 50px 50px 100px;
     width: 40%;
     right: 8%;
+    height: 105vh;
 }
 h3{
     color: white;
@@ -351,7 +352,7 @@ h3{
     display: none;
     position: fixed;
     bottom: 70px;
-    right: 0;
+    right: 20px;
     z-index: 99;
     font-size: 20px;
     border: 2px solid;
@@ -388,9 +389,7 @@ html{
     .contact-me{
         left: 0;
     }
-    form{
-        right: 0;
-    }
+
     
 }
 
@@ -434,15 +433,27 @@ html{
         color: #ECD1DC;
         margin-left: 10px;
       }
-}
-@media(max-width: 1000px){
+    .contact{
+        background: none;
+    }
     .contact-me{
         display: none;
     }
-    form{
-        left: 1%;
-        right: 1%;
-        width: auto;
+
+}
+@media(max-width: 1000px){
+    .contact-me{
+        margin-left: -9%;
+        width: 200px;
+    }
+    .form{
+        right: 11%;
+        max-width: 750px;
+        min-width: 275px;
+    }
+    
+    .contact{
+        background: none;
     }
     .topnav{
         display: block;
@@ -476,9 +487,13 @@ html{
         padding-left: 0;
         height: auto;
     }
-    form{
-        height: 100vh;
+    .form{
+        height: auto;
         margin-top: 50px;
+        width: 275px;
+    }
+    .contact{
+        background: none;
     }
     #scroll-container{
         margin-top: 10px;
@@ -490,4 +505,5 @@ html{
         color: #ECD1DC;
         margin-left: 10px;
       }
+
 }
