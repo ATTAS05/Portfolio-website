@@ -1,0 +1,107 @@
+.logo{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+h2{
+    color: rgb(62, 167, 209);
+}
+body{
+    background-color: rgb(62, 167, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    color: rgb(129, 11, 6);
+}
+h3{
+    margin-top: 10px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.welcome{
+    background-color: rgba(36, 1, 1, 0);
+    width: 100%;
+    color: white;
+}
+.e-portal{
+    background-color: rgb(62, 167, 209);
+    width: 100%;
+    color: white;
+    margin-top: 7px;
+}
+.long{
+    display: flex;
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+}
+
+.box{
+    width: 30px;
+    background-color: rgb(15, 5, 105);
+    border-right: 10px solid whitesmoke;
+}
+.wp{
+    display: flex;
+    background-color: rgb(15, 5, 105);
+    height: 100%;
+    width: 100%;
+
+}
+.classes{   
+    background-color: white;
+    
+    margin-top: -20px;
+}
+.details{
+    margin-top: -60px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    padding: 50px;
+    color: rgb(68, 68, 211);
+    gap: 20px;
+    
+}
+.terms{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+.profile{
+    font-size: small;
+    color: black;
+}
+.body2{
+    
+    margin: 2%;
+}
+input{
+    width: 100px;
+    margin: 2px;
+}
+select{
+    margin: 2px;
+}

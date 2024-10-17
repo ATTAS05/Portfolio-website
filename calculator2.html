@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="calculator2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+    <div id="display"></div>
+    <div class="container">
+    <button class="clear" onclick="clearResult()">C</button>
+    <button class="one" onclick="operation('/')">/</button>
+    <button class="one" onclick="operation('*')">*</button>
+    <button class="one" onclick="operation('-')">-</button>
+    <button class="two" onclick="operation('7')">7</button>
+    <button class="two" onclick="operation('8')">8</button>
+    <button class="two" onclick="operation('9')">9</button>
+    <button class="one" onclick="operation
+    ('+')">+</button>
+    <button class="two" onclick="operation('4')">4</button>
+    <button class="two" onclick="operation('5')">5</button>
+    <button class="two" onclick="operation('6')">6</button>
+    <button class="three" onclick="calcResult()">=</button>
+    <button class="two" onclick="operation('1')">1</button>
+    <button class="two" onclick="operation('2')">2</button>
+    <button class="two" onclick="operation('3')">3</button>
+    <button class="two" onclick="operation('0')">0</button>
+    <button class="two" onclick="operation('.')">.</button>
+    
+
+    <script>
+        let button = document.querySelectorAll("button")
+        let result = document.getElementById("display");
+
+        
+        function operation(operands){
+            result.textContent += operands;
+
+        }
+        
+        function clearResult(){
+            result.textContent = '';
+        }
+        
+        function calcResult(){
+            result.textContent = eval(result.textContent);
+        }
+    </script>
+</body>
+</html>

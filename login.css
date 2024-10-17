@@ -1,0 +1,58 @@
+form{
+    background: rgb(121, 177, 177);
+    color: white;
+    border-radius: 20px;
+    width: 400px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 10px 0px rgb(66, 99, 94);
+    border: 3px solid aqua;
+    margin: 50px;
+    /* justify-content: center; */
+}
+input{
+   background-color: rgb(121, 177, 177); 
+   border-color: aqua;
+   width: 250px;
+   height: 30px;
+   border-radius: 10px;
+   color: whitesmoke;
+}
+*{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+button{
+    background-color: rgb(121, 177, 177); 
+   border-color: aqua;
+   width: 250px;
+   height: 30px;
+   border-radius: 10px;
+   color: whitesmoke;
+}
+body{
+    background-color: rgb(121, 177, 177); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin-bottom: 0px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding-top: 10px;
+}
+#checkbox{
+    width: 20px;
+}
+.checkbox{
+    display: flex;
+    margin-bottom: -20px;
+}
+h4{
+    margin-top: 10px;
+}
+

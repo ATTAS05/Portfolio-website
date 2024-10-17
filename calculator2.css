@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+button{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-gap: 10px;
+    padding-top: 20px;
+}
+#display{
+    background-color: rgb(145, 204, 57);
+    margin-bottom: 10px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: right;
+    align-content: flex-end;
+    font-size: 24px;
+    padding-right: 10px;
+    
+}
+.clear{
+    background-color: red;
+    color: white;
+}
+.one{
+    background-color: blue;
+    color: white;
+}
+.three{
+    background-color: rgb(145, 204, 57) ;
+    grid-row: span 3;
+    height: 170px;
+    color: white;
+}
+.calculator{
+    background-color: black;
+    width: 400px;
+    padding: 20px;
+    height: 50%;
+    border-radius: 10px;
+    margin: 150px;
+}
+.one:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+.clear:hover{
+    background-color: rgb(14, 49, 3);
+    color: red;
+}
+.two:hover{
+    background-color: rgb(37, 163, 12);
+    color: wheat;
+}
+.three:hover{
+    background-color: yellow;
+    color: rgb(4, 7, 0);
+}
+#display:hover{
+    background-color: whitesmoke;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+<body>
+    <form onsubmit="login(event)"><h1>Welcome back</h1>
+        <h3>Username</h3>
+        <input type="text" placeholder="Enter your name" id="name">
+        <h3>Email</h3>
+        <input type="email" placeholder="Enter your email" id="email">
+        <h3>Password</h3>
+        <input type="password" placeholder="Enter your password" id="password">
+        <div class="checkbox"><input type="checkbox" id="checkbox"> <h4>Remember me</h></div>
+        <div class="link">
+            <a href="#">Forgot password</a>
+            <a href="#" onclick="reset()">Reset</a>
+        </div>
+        <p><button type="submit">Login</button>
+        <h3>Do not have an account?</h3>
+        <button>Register now</button></form>
+        
+    
+    
+    <script>
+    let name1 = "TOMIWA";
+    let email1 = "atolagbetaiye@gmail.com";
+    let password1 = "ATTASTomiwa";
+
+    let name = document.getElementById("name");
+    let email = document.getElementById("email");
+    let password = document.getElementById("password");
+    
+
+    function login(e){
+        e.preventDefault();
+
+        if ((name.value == name1) &&
+        (email.value == email1) &&
+        (password.value == password1))
+        {window.alert("Login successful");
+        home()
+        }
+        else
+    {
+        window.alert("Login Unsuccessful")
+    }
+    }
+    
+
+    function home() {
+        window.location.href = "http://127.0.0.1:5501/welcome.html"
+    }
+    </script>
+</body>
+</html>
