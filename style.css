@@ -282,7 +282,7 @@ li{
     width: 300px;
     background-color: #762945;
     padding: 40px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid rgb(248, 247, 247);
     height: 300px;
     position: relative;
     z-index: 998;
@@ -348,6 +348,9 @@ h3{
 .others{
     display: flex;
     gap: 1rem;
+}
+#con{
+    color: white;
 }
 #myBtn {
     display: none;
